@@ -1,0 +1,15 @@
+print(0 and 1)
+//we all know it will return 0
+
+print(1 and 1)
+// It will return 1
+
+print(3 and 5)
+//It will return 5
+
+print(5 and 3)
+//It will return 3
+
+//The last 2 print statements are so because we have never tried to understand how the and operator works.
+// and operator:- It will return the first false value and if not found it will return the last value.
+//3 and 5 both are true values therefore the and operator returns the last true value in each case.
